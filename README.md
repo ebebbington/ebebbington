@@ -1,16 +1,20 @@
 ### Hi there 👋
 
-<!--
-**ebebbington/ebebbington** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+| Learning Projects | Community Projects | Other |
+| :---------------- | :----------------: | -------: |
+| [Chatsterisk](https://github.com/ebebbington/chatsterisk) | [Action Runner](https://github.com/ebebbington/action-runner) | *Private*    |
+| [CopyTube](https://github.com/ebebbington/copytube) | [Deno Data Format Converter](https://github.com/ebebbington/deno-data-format-converter) | [Memebership API](https://github.com/ebebbington/membership-api) |
+| [Juanportal](https://github.com/ebebbington/juanportal) | [Deno Task Runner v2](https://github.com/ebebbington/deno-task-runner-v2) | *Private* |
+| [Income Organiser](https://github.com/ebebbington/income-organiser) | [dmm](https://github.com/ebebbington/dmm) | [Jackspot](https://github.com/ebebbington/jackspot) |
+| | [Deno Context Finder](https://github.com/ebebbington/deno-context-finder) | |
+| | [Denv Creator](https://github.com/ebebbington/denv-creator) | |
+| | [Context Finder](https://github.com/ebebbington/context-finder)
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+| Projects to Work On |
+| :------------------ |
+| Chatsterisk         |
+| Action Runner       |
+| CopyTube            |
+| Deno Data Format Converter |
+| JuanPortal          |
+| Denv Creator        |
