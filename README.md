@@ -8,10 +8,12 @@
 | [Income Organiser](https://github.com/ebebbington/income-organiser) | [dmm](https://github.com/ebebbington/dmm) | [Jackspot](https://github.com/ebebbington/jackspot) |
 | | [Deno Context Finder](https://github.com/ebebbington/deno-context-finder) | |
 | | [Denv Creator](https://github.com/ebebbington/denv-creator) | |
-| | [Context Finder](https://github.com/ebebbington/context-finder)
+| | [Context Finder](https://github.com/ebebbington/context-finder) | |
+| | [DAMI](https://github.com/ebebbington/dami) | |
 
 | Projects to Work On |
 | :------------------ |
+| DAMI                |
 | Chatsterisk         |
 | Action Runner       |
 | CopyTube            |
