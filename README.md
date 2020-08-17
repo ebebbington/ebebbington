@@ -1,5 +1,3 @@
-### Hi there 👋
-
 | Learning Projects | Community Projects | Other |
 | :---------------- | :----------------: | -------: |
 | [Chatsterisk](https://github.com/ebebbington/chatsterisk) | [Action Runner](https://github.com/ebebbington/action-runner) | *Private*    |
@@ -13,7 +11,6 @@
 
 | Projects to Work On |
 | :------------------ |
-| DAMI                |
 | Chatsterisk         |
 | Action Runner       |
 | CopyTube            |
