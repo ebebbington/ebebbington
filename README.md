@@ -42,7 +42,7 @@
   <tr>
     <td><a href="https://github.com/ebebbington/juanportal">JuanPortal</a></td>
     <td><a href="https://github.com/ebebbington/deno-task-runner-v2">Deno Task Runner v2 &#10003;</a></td>
-    <td><a><i>Private &#10003;</i></a></td>
+    <td><a href="https://ebebbington.github.io/esbebbington/">esbebbington</a></td>
   </tr>
   <tr>
     <td><a href="https://github.com/ebebbington/income-organiser">Income Organiser</a></td>
