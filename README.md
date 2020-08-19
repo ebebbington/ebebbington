@@ -1,3 +1,4 @@
+<!--
 | Learning Projects | Community Projects | Other |
 | :---------------- | :----------------: | -------: |
 | [Chatsterisk](https://github.com/ebebbington/chatsterisk) | [Action Runner](https://github.com/ebebbington/action-runner) | *Private*    |
@@ -8,7 +9,8 @@
 | | [Denv Creator](https://github.com/ebebbington/denv-creator) | [this](https://github.com/ebebbington/ebebbington) |
 | | [Context Finder](https://github.com/ebebbington/context-finder) | |
 | | [DAMI](https://github.com/ebebbington/dami) | |
-
+-->
+<!--
 | Projects to Work On |
 | :------------------ |
 | DAMI                |
@@ -18,3 +20,53 @@
 | Deno Data Format Converter |
 | JuanPortal          |
 | Denv Creator        |
+-->
+
+<p align="center">&#10003; = Finished</p>
+<table align="center">
+  <tr>
+    <th>Learning Projects</th>
+    <th>Community Projects</th>
+    <th>Other</th>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/ebebbington/chatsterisk">Chatsterisk</a></td>
+    <td><a href="https://github.com/ebebbington/action-runner">Action Runner</a></td>
+    <td><a><i>Private &#10003;</i></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/ebebbington/copytube">CopyTube</a></td>
+    <td><a href="https://github.com/ebebbington/deno-data-format-converter">Deno Data Format Converter</a></td>
+    <td><a><i>Private &#10003;</i></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/ebebbington/juanportal">JuanPortal</a></td>
+    <td><a href="https://github.com/ebebbington/deno-task-runner-v2">Deno Task Runner v2 &#10003;</a></td>
+    <td><a><i>Private &#10003;</i></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/ebebbington/income-organiser">Income Organiser</a></td>
+    <td><a href="https://github.com/ebebbington/dmm">dmm &#10003;</a></td>
+    <td><a href="https://github.com/ebebbington/membership-api">Membership API &#10003;</a></td>
+  </tr>
+  <tr>
+    <td><a></a></td>
+    <td><a href="https://github.com/ebebbington/deno-context-finder">Deno Context Finder &#10003;</a></td>
+    <td><a href="https://github.com/ebebbington/ebebbington">this &#10003;</a></td>
+  </tr>
+  <tr>
+    <td><a></a></td>
+    <td><a href="https://github.com/ebebbington/denv-creator">Denv Creator</a></td>
+    <td><a href="https://github.com/ebebbington/jackspot">Jackspot &#10003;</a></td>
+  </tr>
+  <tr>
+    <td><a></a></td>
+    <td><a href="https://github.com/ebebbington/context-finder">Context Finder &#10003;</a></td>
+    <td><a></a></td>
+  </tr>
+  <tr>
+    <td><a></a></td>
+    <td><a href="https://github.com/ebebbington/dami">DAMI</a></td>
+    <td><a></a></td>
+  </tr>
+</table>
