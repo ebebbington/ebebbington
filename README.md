@@ -66,7 +66,7 @@
   </tr>
   <tr>
     <td><a></a></td>
-    <td><a href="https://github.com/ebebbington/dami">DAMI</a></td>
+    <td><a href="https://github.com/ebebbington/dami">DAMI &#10003;</a></td>
     <td><a></a></td>
   </tr>
 </table>
