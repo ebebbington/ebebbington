@@ -1,0 +1,428 @@
+/* Variables */
+:root {
+    --main-fg-colour: rgb(255, 136, 0);
+    --main-bg-colour: #333;
+    --sub-fg-colour: white;
+    --sub-bg-colour: rgb(114, 112, 112);
+    --tertiary-bg-colour: lightgray;
+    --tertiary-fg-colour: rgb(202, 145, 40);
+    --top-spacing: 9em; /* Required to stop content being displayed behind header when clicking quick link */
+    --scroll-bar-height: 0.3em;
+    --colour-bad: rgb(221, 47, 3);
+    --colour-ok: rgb(221, 112, 10);
+    --colour-good: rgb(8, 114, 22);
+    --skill-border-width: 0.3em;
+    --test: 'body';
+}
+
+/* ///////////////////////////// */
+/* //////// Animations ///////// */ 
+/* //////////////////////////// */
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+/* ///////////////////////////// */
+/* ///// Generic Styling ////// */ 
+/* //////////////////////////// */
+body {
+    scroll-padding-top: var(--top-spacing);
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+button  {
+    cursor: pointer;
+}
+/* Padding for each section in a container */
+.container {
+    margin-top: 10em;
+}
+.container > .info {
+    padding: 1.5em;
+}
+/* Grey line to seperate sections */
+hr.line-break {
+    border: solid;
+    color: var(--sub-bg-colour);
+}
+/* Header 2's use the main colour */
+h2 {
+    color: var(--main-fg-colour);
+}
+/* Header 3's use the sub background colour */
+h3 {
+    color: var(--sub-bg-colour);
+}
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+hr.short-line {
+    margin-top: -1em;
+    margin-bottom: 1em;
+    width: 3%;
+    border: solid;
+    border-width: thin;
+    color: var(--sub-bg-colour);
+    margin-bottom: 2em;
+}
+hr.short-line.green {
+    color: var(--colour-good);
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: auto;
+    border-width: medium;
+}
+hr.short-line.orange {
+    color: var(--colour-ok);
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: auto;
+    border-width: medium;
+}
+hr.short-line.red {
+    color: var(--colour-bad);
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: auto;
+    border-width: medium;
+}
+.row {
+    display: flex;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.col-3 {
+    width: 33%;
+}
+.margin-auto {
+    margin: auto;
+}
+
+/* ///////////////////////////// */
+/* //////// Mobile Menu //////// */
+/* //////////////////////////// */
+@keyframes rotate {
+    100% {
+        transform: rotate(90deg);
+    }
+}
+@keyframes spring {
+    100% {
+        height: 357px;;
+    }
+}
+/* Position of the container */
+#mobile-menu {
+    position: fixed;
+    bottom: 0;
+    display: none;
+    width: 100%; /* So the sheet child  can cover the page */
+}
+/* Improve button UI */
+#mobile-menu > button {
+    outline: none;
+    border: none;
+    background-color: var(--sub-fg-colour);
+    position: fixed;
+    right: 4px;
+    bottom: 0;
+    width: 58px;
+    height: 58px;
+    z-index: 2;
+}
+/*#mobile-menu > button:active + #sheet {*/
+/*    display: none;*/
+/*}*/
+/* Adjust size of icon */
+#mobile-menu > button > img {
+    height: 50px;
+}
+#mobile-menu.open > button > img {
+    animation: rotate 1s forwards;
+}
+#mobile-menu > #sheet {
+    background-color: var(--tertiary-bg-colour);
+    display: none;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+#mobile-menu > #sheet > ul {
+    text-align: left;
+    padding-left: 1em;
+}
+#mobile-menu > #sheet > ul li {
+    padding: 1em;
+}
+#mobile-menu > #sheet > ul li > a {
+    color: var(--main-fg-colour);
+    text-decoration: none;
+    font-size: 2em;
+}
+#mobile-menu.open > #sheet {
+    display: block;
+    animation: spring 1s forwards;
+}
+#mobile-menu.open + .container > #skills ul li {
+    display: none;
+}
+
+/* ///////////////////////////// */
+/* /////////// Header ////////// */ 
+/* //////////////////////////// */
+/* Container */
+header {
+    background-color: var(--main-bg-colour);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    animation-name: fadeIn;
+    animation-duration: 5s;
+    z-index: 1;
+}
+/* Name inside the header */
+header > h1#header-name {
+        color: var(--main-fg-colour);
+        font-size: 2em;
+        font-weight: 600;
+        margin-top: 0.2em;
+        margin-bottom: -0.2em;
+}
+/* Job title inside the header */
+header > p#header-title {
+    color: var(--sub-fg-colour);
+    font-size: 1em;
+    font-weight: 500;
+    margin-bottom: -0.2em;
+}
+/* Whole quick link block in the header */
+header > div#hyperlinks {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0.2em;
+    margin-top: -0.2em;
+}
+/* Each quick link in the header */
+header a {
+    color: var(--main-fg-colour);
+    text-decoration: none;
+}
+/* Re colour the back-to-top link */
+header > div#hyperlinks > a#back-to-top  {
+    color: var(--sub-fg-colour);
+}
+/* Set a nice colour for hovering over the links */
+header a:hover {
+    color: var(--tertiary-fg-colour);
+}
+/* The bar to fill up with with a line */
+header > #scroll-bar {
+    background: var(--main-fg-colour);
+    width: 0;
+    height: var(--scroll-bar-height);
+}
+ /* Remove sections of the header when in mobile view */
+@media only screen and (max-width: 768px) {
+    header > div#hyperlinks {
+        display: none;
+    }
+    header > #hyperlinks a {
+        display: none;
+    }
+    /*header #scroll-bar {*/
+    /*    display: none;*/
+    /*}*/
+}
+
+/* ///////////////////////////// */
+/* //////// Introduction /////// */ 
+/* //////////////////////////// */
+/* Style the profile picture */
+.container > #introduction {
+    background-color: var(--tertiary-bg-colour);
+}
+.container > #introduction > img#profile-picture {
+    width: 20em;
+    height: 25em;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: var(--main-fg-colour);
+}
+.container > #introduction > img#profile-picture:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+/* Style the personal description */
+.container > #introduction > p#personal-description {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    font-weight: 500;
+    max-width: 50%;
+    color: var(--sub-bg-colour);
+    line-height: 1.5em;
+}
+
+/* ///////////////////////////// */
+/* /////////// Skills ////////// */ 
+/* //////////////////////////// */
+#skills ul {
+    padding-left: 0;
+}
+#skills ul li:hover {
+    cursor: default;
+}
+/* The list item thats shown */
+#skills ul li.skill-name {
+    text-align: center;
+    color: var(--sub-fg-colour);
+    margin: 0.5em;
+    padding: .5em;
+    background-color: var(--sub-bg-colour);
+    position: relative;
+    display: inline-block;
+}
+#skills ul li.skill-name.confident {
+    border-bottom: 5px solid var(--colour-good);
+}
+#skills ul li.skill-name.somewhat-confident {
+    border-bottom: 5px solid var(--colour-ok);
+}
+#skills ul li.skill-name.dabbled {
+    border-bottom:  5px solid var(--colour-bad);
+}
+/* On hover */
+#skills ul li.skill-name:hover {
+    cursor: default;
+    box-shadow: 0 1px 5px 2px var(--main-fg-colour);
+}
+/* The tooltip for each list item */
+#skills .skill-name .skill-tooltip {
+    visibility: hidden;
+    width: 120px;
+    background-color: var(--sub-bg-colour);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+/* Redesign the list items inside the tooltip */
+#skills .skill-name .skill-tooltip li {
+    padding: 0;
+    background: none;
+    display: block;
+    margin: .5em;
+}
+  
+#skills .skill-name .skill-tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+  
+#skills .skill-name:hover .skill-tooltip,
+#skills .skill-name:active .skill-tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* ///////////////////////////// */
+/* //////// Experience //////// */
+/* //////////////////////////// */
+/* Whole div, background and margins */
+.container > #experience {
+    background-color: var(--tertiary-bg-colour);
+}
+/* Re colour the titles */
+#experience .job-title, #experience .employer-name {
+    color: var(--sub-bg-colour);
+}
+/* Design the vertical line to space the list of experiences */
+#experience .thick-vertical-line {
+    border-left: 0.1em solid var(--colour-good);
+    height: 2em;
+    margin-left: 50%;
+}
+
+/* ///////////////////////////// */
+/* ///////// Projects ///////// */ 
+/* //////////////////////////// */
+/* Change cursor when hovering over the images */
+#projects > #list-of-projects .project > img:hover {
+    cursor: pointer;
+}
+#list-of-projects {
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: space-evenly;*/
+}
+#projects > #list-of-projects .project {
+    /*width: 33%;*/
+    background-color: var(--tertiary-bg-colour);
+    flex: 0 0 43%; /* Would be 50% but accounts for the margin and padding below below */
+    margin: 0 1em 1em 1em;
+    padding: 0.5em;
+}
+#projects > #list-of-projects .project > img {
+    width: 155px;
+}
+#projects > #list-of-projects .project > img[alt="Python Logo"] {
+    height: 90px;
+    width: 90px;
+}
+
+/* ///////////////////////////// */
+/* ///// Get in Touch ////////// */
+/* //////////////////////////// */
+/* Background */
+#get-in-touch {
+    background-color: var(--tertiary-bg-colour);
+}
+/* On hover of github mark */
+#get-in-touch > #github-icon:hover {
+    cursor: pointer;
+}
+
+/* ///////////////////////////// */
+/* /////// Media Queries /////// */
+/* //////////////////////////// */
+@media screen and (min-width: 769px) {
+    .container {
+        /*width: 60vw;*/
+        margin: 8em auto 0 auto;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    #projects > #list-of-projects {
+        display: block;
+    }
+    #projects > #list-of-projects .project {
+        /*width: 100%;*/
+    }
+    #mobile-menu {
+        display: block;
+    }
+}
+@media screen and  (min-width: 768px) {
+
+}

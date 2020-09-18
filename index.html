@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ESBebbington - Portfolio</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="public/css/index.css">
+        <script src="public/js/index.js"></script>
+    </head>
+    <body ontouchstart="">
+        <header>
+            <h1 id="header-name">Edward Bebbington</h1>
+            <p id="header-title">Full Stack Junior Web Developer</p>
+            <hr class="line-break">
+            <div id="hyperlinks">
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a id="back-to-top" href="#">Back to Top</a>
+                <a href="#projects">Projects</a>
+                <a href="#get-in-touch">Get In Touch</a>
+            </div>
+            <div id="scroll-bar" class="progress-bars"></div>
+        </header>
+        <div id="mobile-menu">
+            <button type="button" id="mobile-menu-button"><img src="https://img.icons8.com/material-outlined/24/000000/menu.png"/></button>
+            <div id="sheet">
+                <ul>
+                    <li><a class="mobile-nav-items" href="#skills">Skills</a></li>
+                    <li><a class="mobile-nav-items" href="#experience">Experience</a></li>
+                    <li><a class="mobile-nav-items" href="#">Back to Top</a></li>
+                    <li><a class="mobile-nav-items" href="#projects">Projects</a></li>
+                    <li><a class="mobile-nav-items" href="#get-in-touch">Get In Touch</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div id="introduction" class="info">
+                <img id="profile-picture" src="public/images/profile-picture.jpg" alt="Logo">
+                <p id="personal-description"></p>
+            </div>
+            <div id="skills" class="info">
+                <h2>Skills</h2>
+                <hr class="short-line">
+                <div class="row">
+                    <div style="text-align: center; margin: 0 1em 0 auto;">
+                      <hr class="green short-line margin-auto">
+                      <small>Very confident</small>
+                    </div>
+                    <div>
+                      <hr class="short-line orange margin-auto">
+                      <small>Somewhat confident</small>
+                    </div>
+                    <div style="text-align: center; margin: 0 auto 0 1em;">
+                      <hr class="red short-line margin-auto">
+                      <small>Dabbled with</small>
+                    </div>
+                </div>
+                <small><i>Hover/click for extra information</i></small>
+                <h3>Frontend</h3>
+                <ul>
+                    <li class="skill-name confident">HTML5
+                        <ul class="skill-tooltip">
+                            <li>Bootstrap</li>
+                            <li>Pug</li>
+                            <li>Blade</li>
+                            <li>Web Access</li>
+                        </ul>      
+                    </li>
+                    <li class="skill-name confident">CSS3
+                        <ul class="skill-tooltip">
+                            <li>SASS</li>
+                        </ul>
+                    </li>
+                    <li class="skill-name confident">JS
+                        <ul class="skill-tooltip">
+                            <li>jQuery</li>
+                            <li>TypeScript</li>
+                            <li>React</li>
+                            <li>Vue</li>
+                            <li>Webpack</li>
+                        </ul>      
+                    </li>
+                </ul>
+                <h3>Backend</h3>
+                <ul>
+                    <li class="skill-name confident">NodeJS
+                        <ul class="skill-tooltip">
+                            <li>ExpressJS</li>
+                            <li>TypeScript</li>
+                            <li>SocketIO</li>
+                            <li>Mocha/Chai</li>
+                            <li>Redis</li>
+                        </ul>      
+                    </li>
+                    <li class="skill-name confident">PHP
+                        <ul class="skill-tooltip">
+                            <li>Symfony</li>
+                            <li>Laravel</li>
+                            <li>PHPUnit</li>
+                        </ul>      
+                    </li>
+                    <li class="skill-name confident">SQL</li>
+                    <li class="skill-name confident">MongoDB</li>
+                    <li class="skill-name somewhat-confident">Postgres</li>
+                    <li class="skill-name somewhat-confident">Python
+                        <ul class="skill-tooltip">
+                            <li>Flask</li>
+                            <li>Flask-SocketIO</li>
+                            <li>Redis</li>
+                        </ul>
+                    </li>
+                    <li class="skill-name confident">Deno
+                        <ul class="skill-tooltip">
+                            <li>Drash</li>
+                        </ul>      
+                    </li>
+                    <li class="skill-name dabbled">Electron</li>
+                    <li class="skill-name dabbled">C#</li>
+                </ul>
+                <h3>Operations</h3>
+                <ul>
+                    <li class="skill-name somewhat-confident">Nginx</li>
+                    <li class="skill-name confident">Docker</li>
+                    <li class="skill-name somewhat-confident">Linux</li>
+                    <li class="skill-name somewhat-confident">Asterisk</li>
+                    <li class="skill-name dabbled">Ansible</li>
+                    <li class="skill-name dabbled">SIP</li>
+                </ul>
+            </div>
+            <div id="experience" class="info">
+                <h2>Experience</h2>
+                <hr class="short-line">
+                <div class="experiences">
+                    <p class="employer-name"><strong>Intercity Technology</strong></p>
+                    <p class="job-title"><strong>Junior Web Developer</strong></p>
+                    <div class="col-right">
+                        <p class="date"><small>2020 to Present</small></p>
+                    </div>
+                    <div class="thick-vertical-line"></div>
+                    <p class="employer-name"><strong>Intercity Technology</strong></p>
+                    <p class="job-title"><strong>Apprentice Web Developer</strong></p>
+                    <div class="col-right">
+                        <p class="date"><small>2018 to 2020</small></p>
+                    </div>
+                </div>
+            </div>
+            <div id="projects" class="info">
+                <h2>Featured Projects</h2>
+                <hr class="short-line">
+                <div id="list-of-projects">
+                    <div class="project">
+                        <h3>CopyTube</h3>
+                        <p>Learning project for PHP/Laravel,Docker SQL and more</p>
+                        <img data-url="https://github.com/ebebbington/copytube" src="public/images/php-logo.png" alt="PHP Logo">
+                    </div>
+                    <div class="project">
+                        <h3>JuanPortal</h3>
+                        <p>Learning project for Node/Express,Docker Mongo and more</p>
+                        <img data-url="https://github.com/ebebbington/juanportal" src="public/images/nodejs-logo.png" alt="NodeJS Logo">
+                    </div>
+                    <div class="project">
+                        <h3>Chatsterisk</h3>
+                        <p>Learning project for Deno/Drash, Docker and Asterisk</p>
+                        <img data-url="https://github.com/ebebbington/chatsterisk" src="public/images/asterisk-logo.png" alt="Asterisk Logo">
+                    </div>
+                    <div class="project">
+                        <h3>Drashland</h3>
+                        <p>GitHub organisation I am in, to develop helpful software for the Deno community </p>
+                        <img data-url="https://drash.land" src="public/images/drash-logo.png" alt="Drash Logo">
+                    </div>
+                    <div class="project">
+                        <h3>DAMI</h3>
+                        <p>Asterisk Manager Interface client for Deno</p>
+                        <img data-url="https://github.com/ebebbington/dami" src="public/images/dami-logo.png" alt="DAMI Logo">
+                    </div>
+                    <div class="project">
+                        <h3>Context Finder</h3>
+                        <p>Built for the use case of someone needing to programatically extract peers from Asterisk configuration files</p>
+                        <img data-url="https://github.com/ebebbington/context-finder" src="public/images/context-finder-logo.png" alt="Context Finder Logo">
+                    </div>
+                </div>
+            </div>
+            <div id="get-in-touch" class="info">
+                <h2>Get In Touch</h2>
+                <hr class="short-line">
+                <address>
+                    Contact me: EdwardSBebbington@hotmail.com<br><br>
+                    GitHub: <a href="https://github.com/ebebbington">https://github.com/ebebbington</a>/<br><br>
+                    United Kingdom
+                    <br><br>
+                </address>
+                <img id="github-icon" data-url="https://github.com/ebebbington" src="public/images/github-mark.png" alt="GitHub Mark">
+            </div>
+        </div>
+        <footer>
+            <small><p id="copyright"></p></small>
+        </footer>
+    </body>
+</html>
