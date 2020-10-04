@@ -39,7 +39,7 @@
     <td><a><i>Private &#10003;</i></a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/ebebbington/copytube">CopyTube</a></td>
+    <td><a href="https://github.com/ebebbington/copytube">CopyTube &#10003;</a></td>
     <td><a href="https://github.com/ebebbington/data-format-converter">Data Format Converter</a></td>
     <td><a><i>Private &#10003;</i></a></td>
   </tr>
