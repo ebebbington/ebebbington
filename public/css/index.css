@@ -226,7 +226,7 @@ header a {
 }
 /* Re colour the back-to-top link */
 header > div#hyperlinks > a#back-to-top  {
-    color: var(--sub-fg-colour);
+    color: var(--main-fg-colour-for-dark-bg);
 }
 /* Set a nice colour for hovering over the links */
 header a:hover {
