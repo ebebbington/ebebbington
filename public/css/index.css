@@ -26,6 +26,17 @@
     0% {opacity: 0;}
     100% {opacity: 1;}
 }
+@keyframes pulse {
+  0% {
+      transform: scale(0.95);
+  }
+  50% {
+      transform: scale(1);
+  }
+  100% {
+      transform: scale(0.95);
+  }
+}
 
 /* ///////////////////////////// */
 /* ///// Generic Styling ////// */ 
@@ -299,6 +310,9 @@ header > #scroll-bar {
     background-color: var(--sub-bg-colour);
     position: relative;
     display: inline-block;
+}
+#skills ul li.skill-name.has-sub-skills {
+    animation: pulse 2s infinite;
 }
 #skills ul li.skill-name.confident {
     border-bottom: 5px solid var(--colour-good);
