@@ -1,4 +1,9 @@
 <p align="center">https://ebebbington.github.io/ebebbington</p>
+<p align="center">
+  <a href="https://github.com/ebebbington/ebebbington/actions">
+    <img src="https://img.shields.io/github/workflow/status/ebebbington/ebebbington/master?label=accessibility">
+  </a>
+</p>
 
 ---
 
