@@ -28,4 +28,4 @@ jobs:
       - name: Use Axe
         run: |
           npm i -g @axe-core/cli
-          axe http://localhost:1337
+          axe http://localhost:1337 --exit
