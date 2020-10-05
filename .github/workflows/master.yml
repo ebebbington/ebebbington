@@ -29,3 +29,32 @@ jobs:
         run: |
           npm i -g @axe-core/cli
           axe http://localhost:1337 --exit
+
+  browser-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install NPM
+        uses: actions/setup-node@v2-beta
+        with:
+          node-version: '12'
+
+      - name: Install Deno
+        uses: denolib/setup-deno@master
+        with:
+          deno-version: 1.4.3
+
+      - name: Start Server
+        run: deno run -A make_website_a_server.ts &
+
+      - name: Install Cypress
+        run: |
+          cd tests
+          npm i
+
+      - name: Run Browser Tests
+        run: |
+          cd tests
+          node_modules/.bin/cypress run
+

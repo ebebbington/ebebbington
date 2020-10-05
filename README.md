@@ -3,6 +3,9 @@
   <a href="https://github.com/ebebbington/ebebbington/actions">
     <img src="https://img.shields.io/github/workflow/status/ebebbington/ebebbington/master?label=accessibility">
   </a>
+  <a href="https://github.com/ebebbington/ebebbington/actions">
+    <img src="https://img.shields.io/github/workflow/status/ebebbington/ebebbington/master?label=browser">
+  </a>
 </p>
 
 ---
