@@ -10,6 +10,8 @@ jobs:
   test-accessibility:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
+
       - name: Install NPM
         uses: actions/setup-node@v2-beta
         with:
