@@ -23,7 +23,7 @@ jobs:
           deno-version: 1.4.3
 
       - name: Start Server
-        run: deno run -A make_website_a_server.ts
+        run: deno run -A make_website_a_server.ts &
 
       - name: Use Axe
         run: |
