@@ -2,7 +2,8 @@
 :root {
     --main-fg-colour-for-white-bg: #996F15;
     --main-fg-colour-for-grey-bg: #705110;
-
+    --main-fg-colour-for-dark-bg: #F0E4D6;
+    --sub-fg-colour-for-grey-bg: #575757;
     --main-fg-colour: rgb(255, 136, 0);
     --main-bg-colour: #333;
     --sub-fg-colour: white;
@@ -195,7 +196,7 @@ header {
 }
 /* Name inside the header */
 header > h1#header-name {
-        color: var(--main-fg-colour);
+        color: var(--main-fg-colour-for-dark-bg);
         font-size: 2em;
         font-weight: 600;
         margin-top: 0.2em;
@@ -203,10 +204,13 @@ header > h1#header-name {
 }
 /* Job title inside the header */
 header > p#header-title {
-    color: var(--sub-fg-colour);
+    color: var(--main-fg-colour-for-dark-bg);
     font-size: 1em;
     font-weight: 500;
     margin-bottom: -0.2em;
+}
+header > .line-break {
+    color: var(--main-fg-colour)
 }
 /* Whole quick link block in the header */
 header > div#hyperlinks {
@@ -217,7 +221,7 @@ header > div#hyperlinks {
 }
 /* Each quick link in the header */
 header a {
-    color: var(--main-fg-colour);
+    color: var(--main-fg-colour-for-dark-bg);
     text-decoration: none;
 }
 /* Re colour the back-to-top link */
@@ -273,7 +277,7 @@ header > #scroll-bar {
     margin-top: 3em;
     font-weight: 500;
     max-width: 50%;
-    color: var(--sub-bg-colour);
+    color: var(--sub-fg-colour-for-grey-bg);
     line-height: 1.5em;
 }
 
@@ -361,7 +365,7 @@ header > #scroll-bar {
 }
 /* Re colour the titles */
 #experience .job-title, #experience .employer-name {
-    color: #575757;
+    color: var(--sub-fg-colour-for-grey-bg);
 }
 /* Design the vertical line to space the list of experiences */
 #experience .thick-vertical-line {
