@@ -1,5 +1,8 @@
 /* Variables */
 :root {
+    --main-fg-colour-for-white-bg: #996F15;
+    --main-fg-colour-for-grey-bg: #705110;
+
     --main-fg-colour: rgb(255, 136, 0);
     --main-bg-colour: #333;
     --sub-fg-colour: white;
@@ -47,8 +50,11 @@ hr.line-break {
     color: var(--sub-bg-colour);
 }
 /* Header 2's use the main colour */
-h2 {
-    color: var(--main-fg-colour);
+.container .info:nth-child(2n+2) h2 {
+    color: var(--main-fg-colour-for-white-bg);
+}
+.container .info:nth-child(2n+1) h2 {
+    color: var(--main-fg-colour-for-grey-bg);
 }
 /* Header 3's use the sub background colour */
 h3 {
@@ -355,7 +361,7 @@ header > #scroll-bar {
 }
 /* Re colour the titles */
 #experience .job-title, #experience .employer-name {
-    color: var(--sub-bg-colour);
+    color: #575757;
 }
 /* Design the vertical line to space the list of experiences */
 #experience .thick-vertical-line {
