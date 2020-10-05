@@ -47,5 +47,6 @@ jobs:
 
       - name: Run Browser Tests
         run: |
+          cd tests/browser
           node_modules/.bin/cypress run
 
