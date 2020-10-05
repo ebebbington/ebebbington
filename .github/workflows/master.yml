@@ -1,0 +1,31 @@
+name: master
+
+on:
+  push:
+     branches: [master]
+  pull_request:
+     branches: [master]
+
+jobs:
+  test-accessibility:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install NPM
+        uses: actions/setup-node@v2-beta
+        with:
+          node-version: '12'
+
+      - name: Install Deno
+        uses: denolib/setup-deno@master
+        with:
+          deno-version: 1.4.3
+
+      - name: Start Server
+        run: deno run -A make_website_a_server.ts &
+
+      - name: Use Axe
+        run: |
+          npm i -g @axe-core/cli
+          axe http://localhost:1337 --exit
