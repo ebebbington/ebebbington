@@ -40,13 +40,21 @@ jobs:
         with:
           node-version: '12'
 
+      - name: Install Deno
+        uses: denolib/setup-deno@master
+        with:
+          deno-version: 1.4.3
+
+      - name: Start Server
+        run: deno run -A make_website_a_server.ts &
+
       - name: Install Cypress
         run: |
-          cd tests/browser
+          cd tests
           npm i
 
       - name: Run Browser Tests
         run: |
-          cd tests/browser
+          cd tests
           node_modules/.bin/cypress run
 
