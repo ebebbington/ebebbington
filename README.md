@@ -41,12 +41,12 @@
   <tr>
     <td><a href="https://github.com/ebebbington/chatsterisk">Chatsterisk</a></td>
     <td><a href="https://github.com/ebebbington/drash-markup-language">Drash Markup Language</a></td>
-    <td><a><i>Private &#10003;</i></a></td>
+    <td><a href="https://github.com/ebebbington/training-playground">training-playground &#10003;</a></td>
   </tr>
   <tr>
     <td><a href="https://github.com/ebebbington/copytube">CopyTube &#10003;</a></td>
     <td><a href="https://github.com/ebebbington/data-format-converter">Data Format Converter</a></td>
-    <td><a><i>Private &#10003;</i></a></td>
+    <td><a href-"https://github.com/ebebbington/scripts">scripts &#10003;</a></td>
   </tr>
   <tr>
     <td><a href="https://github.com/ebebbington/juanportal">JuanPortal</a></td>
