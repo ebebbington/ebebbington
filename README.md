@@ -47,7 +47,7 @@
     <td><a href="https://github.com/ebebbington/training-playground">training-playground &#10003;</a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/ebebbington/copytube">CopyTube &#10003;</a></td>
+    <td><a href="https://github.com/ebebbington/copytube">CopyTube</a></td>
     <td><a href="https://github.com/ebebbington/data-format-converter">Data Format Converter</a></td>
     <td><a href="https://github.com/ebebbington/scripts">scripts &#10003;</a></td>
   </tr>
@@ -65,5 +65,10 @@
     <td><a href="https://github.com/ebebbington/rpop">rpop</a></td>
     <td><a href="https://github.com/ebebbington/context-finder">Context Finder &#10003;</a></td>
     <td><a href="https://github.com/ebebbington/ebebbington">this &#10003;</a></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><a href="https://github.com/ebebbington/depcheck">depcheck</a></td>
+    <td></td>
   </tr>
 </table>
