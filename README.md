@@ -68,7 +68,7 @@
   </tr>
   <tr>
     <td></td>
-    <td><a href="https://github.com/ebebbington/depcheck">depcheck</a></td>
+    <td><a href="https://github.com/ebebbington/depcheck">depcheck &#10003;</a></td>
     <td></td>
   </tr>
 </table>
