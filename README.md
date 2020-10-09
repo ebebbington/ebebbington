@@ -52,7 +52,7 @@
     <td><a href="https://github.com/ebebbington/scripts">scripts &#10003;</a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/ebebbington/juanportal">JuanPortal</a></td>
+    <td><a href="https://github.com/ebebbington/juanportal">JuanPortal &#10003;</a></td>
     <td><a href="https://github.com/ebebbington/dami">DAMI &#10003;</a></td>
     <td><a href="https://github.com/ebebbington/jackspot">Jackspot &#10003;</a></td>
   </tr>
