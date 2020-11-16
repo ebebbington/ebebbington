@@ -10,6 +10,10 @@
 
 ---
 
+<p align="center">
+  Repositories
+</p>
+
 <!--
 | Learning Projects | Community Projects | Other |
 | :---------------- | :----------------: | -------: |
@@ -62,7 +66,7 @@
     <td><a href="https://github.com/ebebbington/membership-api">Membership API &#10003;</a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/ebebbington/rpop">rpop</a></td>
+    <td><a></a></td>
     <td><a href="https://github.com/ebebbington/context-finder">Context Finder &#10003;</a></td>
     <td><a href="https://github.com/ebebbington/ebebbington">this &#10003;</a></td>
   </tr>
@@ -71,4 +75,8 @@
     <td><a href="https://github.com/ebebbington/depcheck">depcheck &#10003;</a></td>
     <td></td>
   </tr>
+  <tr>
+    <td></tdd>
+    <td><a href="https://github.com/ebebbington/rust-drash">Rust Drash</a></td>
+    <td></td>
 </table>
