@@ -57,7 +57,7 @@
   </tr>
   <tr>
     <td><a href="https://github.com/ebebbington/juanportal">JuanPortal &#10003;</a></td>
-    <td><a href="https://github.com/ebebbington/dami">DAMI</a></td>
+    <td><a href="https://github.com/ebebbington/dami">DAMI &#10003;</a></td>
     <td><a href="https://github.com/ebebbington/jackspot">Jackspot &#10003;</a></td>
   </tr>
   <tr>
