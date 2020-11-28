@@ -67,7 +67,7 @@
   </tr>
   <tr>
     <td><a></a></td>
-    <td><a href="https://github.com/ebebbington/context-finder">Context Finder</a></td>
+    <td><a href="https://github.com/ebebbington/context-finder">Context Finder &#10003;</a></td>
     <td><a href="https://github.com/ebebbington/ebebbington">this &#10003;</a></td>
   </tr>
   <tr>
