@@ -27,39 +27,39 @@ context('Files', () => {
     // when application makes an Ajax request matching "GET comments/*"
     // Cypress will intercept it and reply with object
     // from the "comment" alias
-    cy.route('GET', 'comments/*', '@comment').as('getComment')
-
-    // we have code that gets a comment when
-    // the button is clicked in scripts.js
-    cy.get('.fixture-btn').click()
-
-    cy.wait('@getComment').its('responseBody')
-      .should('have.property', 'name')
-      .and('include', 'Using fixtures to represent data')
-
-    // you can also just write the fixture in the route
-    cy.route('GET', 'comments/*', 'fixture:example.json').as('getComment')
-
-    // we have code that gets a comment when
-    // the button is clicked in scripts.js
-    cy.get('.fixture-btn').click()
-
-    cy.wait('@getComment').its('responseBody')
-      .should('have.property', 'name')
-      .and('include', 'Using fixtures to represent data')
-
-    // or write fx to represent fixture
-    // by default it assumes it's .json
-    cy.route('GET', 'comments/*', 'fx:example').as('getComment')
-
-    // we have code that gets a comment when
-    // the button is clicked in scripts.js
-    cy.get('.fixture-btn').click()
-
-    cy.wait('@getComment').its('responseBody')
-      .should('have.property', 'name')
-      .and('include', 'Using fixtures to represent data')
-  })
+  //   cy.route('GET', 'comments/*', '@comment').as('getComment')
+  //
+  //   // we have code that gets a comment when
+  //   // the button is clicked in scripts.js
+  //   cy.get('.fixture-btn').click()
+  //
+  //   cy.wait('@getComment').its('responseBody')
+  //     .should('have.property', 'name')
+  //     .and('include', 'Using fixtures to represent data')
+  //
+  //   // you can also just write the fixture in the route
+  //   cy.route('GET', 'comments/*', 'fixture:example.json').as('getComment')
+  //
+  //   // we have code that gets a comment when
+  //   // the button is clicked in scripts.js
+  //   cy.get('.fixture-btn').click()
+  //
+  //   cy.wait('@getComment').its('responseBody')
+  //     .should('have.property', 'name')
+  //     .and('include', 'Using fixtures to represent data')
+  //
+  //   // or write fx to represent fixture
+  //   // by default it assumes it's .json
+  //   cy.route('GET', 'comments/*', 'fx:example').as('getComment')
+  //
+  //   // we have code that gets a comment when
+  //   // the button is clicked in scripts.js
+  //   cy.get('.fixture-btn').click()
+  //
+  //   cy.wait('@getComment').its('responseBody')
+  //     .should('have.property', 'name')
+  //     .and('include', 'Using fixtures to represent data')
+  // })
 
   it('cy.fixture() or require - load a fixture', function () {
     // we are inside the "function () { ... }"
