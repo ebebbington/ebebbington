@@ -78,7 +78,6 @@ ul {
 }
 hr.short-line {
     margin-top: -1em;
-    margin-bottom: 1em;
     width: 3%;
     border: solid;
     border-width: thin;
@@ -87,22 +86,16 @@ hr.short-line {
 }
 hr.short-line.green {
     color: var(--colour-good);
-    margin-top: 0;
-    margin-bottom: 0;
     margin: auto;
     border-width: medium;
 }
 hr.short-line.orange {
     color: var(--colour-ok);
-    margin-top: 0;
-    margin-bottom: 0;
     margin: auto;
     border-width: medium;
 }
 hr.short-line.red {
     color: var(--colour-bad);
-    margin-top: 0;
-    margin-bottom: 0;
     margin: auto;
     border-width: medium;
 }
@@ -128,7 +121,7 @@ hr.short-line.red {
 }
 @keyframes spring {
     100% {
-        height: 357px;;
+        height: 357px;
     }
 }
 /* Position of the container */
@@ -447,6 +440,6 @@ header > #scroll-bar {
         display: block;
     }
 }
-@media screen and  (min-width: 768px) {
+/*@media screen and  (min-width: 768px) {*/
 
-}
+/*}*/
