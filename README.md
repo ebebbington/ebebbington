@@ -9,7 +9,7 @@
   <a href="https://github.com/ebebbington/ebebbington/actions">
     <img src="https://img.shields.io/github/workflow/status/ebebbington/ebebbington/CodeQL?label=CodeQL">
   </a>
-  <a href="https://sonarcloud.io/dashboard?id=ebebbington_dami">
+  <a href="https://sonarcloud.io/dashboard?id=ebebbington_ebebbington">
     <img src="https://sonarcloud.io/api/project_badges/measure?project=ebebbington_ebebbington&metric=alert_status">
   </a>
 </p>
