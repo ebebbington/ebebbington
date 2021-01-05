@@ -68,11 +68,11 @@
   </tr>
   <tr>
     <td><a href="https://github.com/ebebbington/income-organiser">Income Organiser &#10003;</a></td>
-    <td><a href="https://github.com/ebebbington/denv-creator">Denv Creator</a></td>
+    <td><a href="https://github.com/ebebbington/rust-drash">Rust Drash</a></td>
     <td><a href="https://github.com/ebebbington/membership-api">Membership API &#10003;</a></td>
   </tr>
   <tr>
-    <td><a></a></td>
+    <td><a href="https://github.com/ebebbington/denv-creator">Denv Creator</a></td>
     <td><a href="https://github.com/ebebbington/context-finder">Context Finder &#10003;</a></td>
     <td><a href="https://github.com/ebebbington/ebebbington">this &#10003;</a></td>
   </tr>
@@ -81,8 +81,4 @@
     <td><a href="https://github.com/ebebbington/depcheck">depcheck &#10003;</a></td>
     <td><a href="https://github.com/ebebbington/.github">.github &#10003;</a></td>
   </tr>
-  <tr>
-    <td></tdd>
-    <td><a href="https://github.com/ebebbington/rust-drash">Rust Drash</a></td>
-    <td></td>
 </table>
