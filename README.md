@@ -49,7 +49,7 @@
 <table align="center">
   <tr>
     <th>Learning Projects</th>
-    <th>Community Projects</th>
+    <th>Open Source Projects</th>
     <th>Other</th>
   </tr>
   <tr>
