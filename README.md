@@ -45,6 +45,7 @@
 -->
 
 <p align="center">&#10003; = Finished</p>
+<p align="center"><i>(A)</i> = Archived</p>
 <table align="center">
   <tr>
     <th>Learning Projects</th>
