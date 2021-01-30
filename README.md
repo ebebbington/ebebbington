@@ -49,7 +49,7 @@
 <table align="center">
   <tr>
     <th>Learning Projects</th>
-    <th>Open Source Projects</th>
+    <th>For the Community</th>
     <th>Other</th>
   </tr>
   <tr>
@@ -81,5 +81,10 @@
     <td></td>
     <td><a href="https://github.com/ebebbington/depcheck">depcheck &#10003;</a></td>
     <td><a href="https://github.com/ebebbington/.github">.github &#10003;</a></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><a href="https://github.com/ebebbington/depcheck">deno-userland-ideas &#10003;</a></td>
+    <td></td>
   </tr>
 </table>
