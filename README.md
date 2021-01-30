@@ -65,12 +65,12 @@
   <tr>
     <td><a href="https://github.com/ebebbington/juanportal">JuanPortal &#10003;</a></td>
     <td><a href="https://github.com/ebebbington/dami">DAMI &#10003;</a></td>
-    <td><a href="https://github.com/ebebbington/jackspot">Jackspot &#10003;</a></td>
+    <td><a href="https://github.com/ebebbington/jackspot">Jackspot <i>(A)</i></a></td>
   </tr>
   <tr>
     <td><a href="https://github.com/ebebbington/income-organiser">Income Organiser <i>(A)</i></a></td>
     <td><a href="https://github.com/ebebbington/rust-drash">Rust Drash</a></td>
-    <td><a href="https://github.com/ebebbington/membership-api">Membership API &#10003;</a></td>
+    <td><a href="https://github.com/ebebbington/membership-api">Membership API <i>(A)</i></a></td>
   </tr>
   <tr>
     <td><a href="https://github.com/ebebbington/denv-creator">Denv Creator <i>(A)</i></a></td>
