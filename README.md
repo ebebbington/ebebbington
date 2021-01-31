@@ -87,4 +87,9 @@
     <td><a href="https://github.com/ebebbington/deno-userland-ideas">deno-userland-ideas &#10003;</a></td>
     <td></td>
   </tr>
+  <tr>
+    <td></td>
+    <td><a href="https://github.com/ebebbington/scriptor">scriptor</a></td>
+    <td></td>
+  </tr>
 </table>
