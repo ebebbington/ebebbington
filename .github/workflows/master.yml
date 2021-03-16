@@ -12,23 +12,19 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install NPM
-        uses: actions/setup-node@v2-beta
-        with:
-          node-version: '12'
-
       - name: Install Deno
         uses: denolib/setup-deno@master
-        with:
-          deno-version: 1.4.3
 
       - name: Start Server
         run: deno run -A make_website_a_server.ts &
 
-      - name: Use Axe
+      - name: Use Pa11y
         run: |
-          npm i -g @axe-core/cli
-          axe http://localhost:1337 --exit
+          npm i pa11y
+          node_modules/.bin/pa11y --ignore "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail" http://localhost:1337
+#          npm i -g @axe-core/cli
+#          axe http://localhost:1337 --exit
+ 
 
   browser-tests:
     runs-on: ubuntu-latest
