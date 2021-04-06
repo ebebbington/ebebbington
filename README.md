@@ -55,17 +55,17 @@
   <tr>
     <td><a href="https://github.com/ebebbington/chatsterisk">Chatsterisk</a></td>
     <td><a href="https://github.com/ebebbington/drash-markup-language">Drash Markup Language</a></td>
-    <td><a href="https://github.com/ebebbington/training-playground">training-playground &#10003;</a></td>
+    <td><a href="https://github.com/ebebbington/training-playground">resources &#10003;</a></td>
   </tr>
   <tr>
     <td><a href="https://github.com/ebebbington/copytube">CopyTube &#10003;</a></td>
     <td><a href="https://github.com/ebebbington/data-format-converter">Data Format Converter &#10003;</a></td>
-    <td><a href="https://github.com/ebebbington/scripts">scripts &#10003;</a></td>
+    <td><a href="https://github.com/ebebbington/jackspot">Jackspot <i>(A)</i></a></td>
   </tr>
   <tr>
     <td><a href="https://github.com/ebebbington/juanportal">JuanPortal &#10003;</a></td>
     <td><a href="https://github.com/ebebbington/dami">DAMI &#10003;</a></td>
-    <td><a href="https://github.com/ebebbington/jackspot">Jackspot <i>(A)</i></a></td>
+    <td><a href="https://github.com/ebebbington/.github">.github &#10003;</a></td>
   </tr>
   <tr>
     <td><a href="https://github.com/ebebbington/income-organiser">Income Organiser <i>(A)</i></a></td>
@@ -80,7 +80,6 @@
   <tr>
     <td></td>
     <td><a href="https://github.com/ebebbington/depcheck">depcheck &#10003;</a></td>
-    <td><a href="https://github.com/ebebbington/.github">.github &#10003;</a></td>
   </tr>
   <tr>
     <td></td>
