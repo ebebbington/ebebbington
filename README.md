@@ -80,11 +80,15 @@
   <tr>
     <td></td>
     <td><a href="https://github.com/ebebbington/depcheck">depcheck &#10003;</a></td>
-    <td></td>
   </tr>
   <tr>
     <td></td>
     <td><a href="https://github.com/ebebbington/deno-userland-ideas">deno-userland-ideas &#10003;</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><a href="https://github.com/ebebbington/outriders-calc">Outriders Calc</a></td>
     <td></td>
   </tr>
 </table>
