@@ -59,7 +59,7 @@
   </tr>
   <tr>
     <td><a href="https://github.com/ebebbington/copytube">CopyTube &#10003;</a></td>
-    <td><a href="https://github.com/ebebbington/data-format-converter">Data Format Converter &#10003;</a></td>
+    <td><a href="https://github.com/ebebbington/crumpets">crumpets &#10003;</a></td>
     <td><a href="https://github.com/ebebbington/jackspot">Jackspot <i>(A)</i></a></td>
   </tr>
   <tr>
@@ -89,11 +89,6 @@
   <tr>
     <td></td>
     <td><a href="https://github.com/ebebbington/outriders-calc">Outriders Calc &#10003;</a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td><a href="https://github.com/ebebbington/crumpets">crumpets &#10003;</a></td>
     <td></td>
   </tr>
 </table>
