@@ -80,7 +80,7 @@
   <tr>
     <td></td>
     <td><a href="https://github.com/ebebbington/depcheck">depcheck &#10003;</a></td>
-    <td><a href="https://github.com/ebebbington/msuci-converter">music-converter</a</td>
+    <td><a href="https://github.com/ebebbington/music-converter">music-converter</a</td>
   </tr>
   <tr>
     <td></td>
