@@ -53,28 +53,28 @@
     <th>Other</th>
   </tr>
   <tr>
-    <td><a href="https://github.com/ebebbington/chatsterisk">Chatsterisk</a></td>
-    <td><a href="https://github.com/ebebbington/drash-markup-language">Drash Markup Language</a></td>
+    <td><a href="https://github.com/ebebbington/chatsterisk">chatsterisk</a></td>
+    <td><a href="https://github.com/ebebbington/drash-markup-language">drashmarkup-language</a></td>
     <td><a href="https://github.com/ebebbington/training-playground">resources &#10003;</a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/ebebbington/copytube">CopyTube &#10003;</a></td>
+    <td><a href="https://github.com/ebebbington/copytube">copytube &#10003;</a></td>
     <td><a href="https://github.com/ebebbington/crumpets">crumpets &#10003;</a></td>
-    <td><a href="https://github.com/ebebbington/jackspot">Jackspot <i>(A)</i></a></td>
+    <td><a href="https://github.com/ebebbington/jackspot">jackspot <i>(A)</i></a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/ebebbington/juanportal">JuanPortal &#10003;</a></td>
-    <td><a href="https://github.com/ebebbington/dami">DAMI &#10003;</a></td>
+    <td><a href="https://github.com/ebebbington/juanportal">puanportal &#10003;</a></td>
+    <td><a href="https://github.com/ebebbington/dami">dami &#10003;</a></td>
     <td><a href="https://github.com/ebebbington/.github">.github &#10003;</a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/ebebbington/income-organiser">Income Organiser <i>(A)</i></a></td>
-    <td><a href="https://github.com/ebebbington/rust-drash">Rust Drash</a></td>
-    <td><a href="https://github.com/ebebbington/membership-api">Membership API <i>(A)</i></a></td>
+    <td><a href="https://github.com/ebebbington/income-organiser">income-irganiser <i>(A)</i></a></td>
+    <td><a href="https://github.com/ebebbington/rust-drash">rust-drash</a></td>
+    <td><a href="https://github.com/ebebbington/membership-api">membership-api <i>(A)</i></a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/ebebbington/denv-creator">Denv Creator <i>(A)</i></a></td>
-    <td><a href="https://github.com/ebebbington/context-finder">Context Finder &#10003;</a></td>
+    <td><a href="https://github.com/ebebbington/denv-creator">denv-creator <i>(A)</i></a></td>
+    <td><a href="https://github.com/ebebbington/context-finder">context-finder &#10003;</a></td>
     <td><a href="https://github.com/ebebbington/ebebbington">this &#10003;</a></td>
   </tr>
   <tr>
@@ -89,7 +89,12 @@
   </tr>
   <tr>
     <td></td>
-    <td><a href="https://github.com/ebebbington/outriders-calc">Outriders Calc &#10003;</a></td>
+    <td><a href="https://github.com/ebebbington/outriders-calc">outriders-calc &#10003;</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><a href="https://github.com/ebebbington/composer-check-updates">composer-check-updates &#10003;</a></td>
     <td></td>
   </tr>
 </table>
