@@ -54,7 +54,7 @@
   </tr>
   <tr>
     <td><a href="https://github.com/ebebbington/chatsterisk">chatsterisk</a></td>
-    <td><a href="https://github.com/ebebbington/drash-markup-language">drashmarkup-language</a></td>
+    <td><a href="https://github.com/ebebbington/drash-markup-language">drash-markup-language</a></td>
     <td><a href="https://github.com/ebebbington/training-playground">resources &#10003;</a></td>
   </tr>
   <tr>
