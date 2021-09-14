@@ -63,7 +63,7 @@
     <td><a href="https://github.com/ebebbington/jackspot">jackspot <i>(A)</i></a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/ebebbington/juanportal">puanportal &#10003;</a></td>
+    <td><a href="https://github.com/ebebbington/juanportal">juanportal &#10003;</a></td>
     <td><a href="https://github.com/ebebbington/dami">dami &#10003;</a></td>
     <td><a href="https://github.com/ebebbington/.github">.github &#10003;</a></td>
   </tr>
