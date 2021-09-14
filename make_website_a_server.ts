@@ -1,4 +1,4 @@
-import { Drash } from "https://deno.land/x/drash@v1.2.4/mod.ts"
+import { Drash } from "./deps.ts"
 
 class HomeResource extends Drash.Http.Resource {
   static paths = ["/"]
