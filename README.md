@@ -54,7 +54,7 @@
   </tr>
   <tr>
     <td><a href="https://github.com/ebebbington/chatsterisk">chatsterisk</a></td>
-    <td><a href="https://github.com/ebebbington/drash-markup-language">drash-markup-language</a></td>
+    <td><a href="https://github.com/ebebbington/outriders-calc">outriders-calc &#10003;</a></td>
     <td><a href="https://github.com/ebebbington/training-playground">resources &#10003;</a></td>
   </tr>
   <tr>
@@ -85,12 +85,7 @@
   <tr>
     <td></td>
     <td><a href="https://github.com/ebebbington/deno-userland-ideas">deno-userland-ideas &#10003;</a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td><a href="https://github.com/ebebbington/outriders-calc">outriders-calc &#10003;</a></td>
-    <td></td>
+    <td><a href="https://github.com/ebebbington/drash-markup-language">drash-markup-language</a></td>
   </tr>
   <tr>
     <td></td>
