@@ -87,9 +87,4 @@
     <td><a href="https://github.com/ebebbington/deno-userland-ideas">deno-userland-ideas &#10003;</a></td>
     <td><a href="https://github.com/ebebbington/drash-markup-language">drash-markup-language</a></td>
   </tr>
-  <tr>
-    <td></td>
-    <td><a href="https://github.com/ebebbington/composer-check-updates">composer-check-updates &#10003;</a></td>
-    <td></td>
-  </tr>
 </table>
