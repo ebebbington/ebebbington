@@ -12,7 +12,6 @@ class FilesResource extends Drash.Http.Resource {
   static paths = ["/public/:dir/:file"]
 
   public GET() {
-    console.log(this.request.url)
     const { url } = this.request
     const mimeType = url.endsWith(".css") ? "text/css" : url.endsWith(".js") ? "application/javascript" : "image/png"
     this.response.body = Deno.readFileSync("." + this.request.url)
