@@ -70,7 +70,7 @@
   <tr>
     <td><a href="https://github.com/ebebbington/income-organiser">income-irganiser <i>(A)</i></a></td>
     <td><a href="https://github.com/ebebbington/rust-drash">rust-drash</a></td>
-    <td><a href="https://github.com/ebebbington/membership-api">membership-api <i>(A)</i></a></td>
+    <td><a href="https://github.com/ebebbington/drash-markup-language">drash-markup-language</a></td>
   </tr>
   <tr>
     <td><a href="https://github.com/ebebbington/denv-creator">denv-creator <i>(A)</i></a></td>
@@ -81,10 +81,5 @@
     <td></td>
     <td><a href="https://github.com/ebebbington/depcheck">depcheck &#10003;</a></td>
     <td><a href="https://github.com/ebebbington/music-converter">music-converter &#10003;</a</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td><a href="https://github.com/ebebbington/drash-markup-language">drash-markup-language</a></td>
   </tr>
 </table>
