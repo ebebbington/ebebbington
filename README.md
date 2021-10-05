@@ -68,7 +68,7 @@
     <td><a href="https://github.com/ebebbington/.github">.github &#10003;</a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/ebebbington/income-organiser">income-irganiser <i>(A)</i></a></td>
+    <td><a href="https://github.com/ebebbington/income-organiser">income-organiser <i>(A)</i></a></td>
     <td><a href="https://github.com/ebebbington/rust-drash">rust-drash</a></td>
     <td><a href="https://github.com/ebebbington/drash-markup-language">drash-markup-language</a></td>
   </tr>
