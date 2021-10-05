@@ -59,7 +59,7 @@
   </tr>
   <tr>
     <td><a href="https://github.com/ebebbington/copytube">copytube &#10003;</a></td>
-    <td><a href="https://github.com/ebebbington/crumpets">crumpets &#10003;</a></td>
+    <td><a href="https://github.com/ebebbington/deno-userland-ideas">deno-userland-ideas &#10003;</a></td>
     <td><a href="https://github.com/ebebbington/jackspot">jackspot <i>(A)</i></a></td>
   </tr>
   <tr>
@@ -84,7 +84,7 @@
   </tr>
   <tr>
     <td></td>
-    <td><a href="https://github.com/ebebbington/deno-userland-ideas">deno-userland-ideas &#10003;</a></td>
+    <td></td>
     <td><a href="https://github.com/ebebbington/drash-markup-language">drash-markup-language</a></td>
   </tr>
 </table>
