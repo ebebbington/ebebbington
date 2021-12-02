@@ -54,7 +54,7 @@
   </tr>
   <tr>
     <td><a href="https://github.com/ebebbington/chatsterisk">chatsterisk</a></td>
-    <td><a href="https://github.com/ebebbington/outriders-calc">outriders-calc &#10003;</a></td>
+    <td><a href="https://github.com/ebebbington/depcheck">depcheck &#10003;</a></td>
     <td><a href="https://github.com/ebebbington/training-playground">resources &#10003;</a></td>
   </tr>
   <tr>
@@ -79,7 +79,7 @@
   </tr>
   <tr>
     <td></td>
-    <td><a href="https://github.com/ebebbington/depcheck">depcheck &#10003;</a></td>
     <td><a href="https://github.com/ebebbington/music-converter">music-converter &#10003;</a</td>
+      <td><a href="https://github.com/ebebbington/outriders-calc">outriders-calc<i> (A)</i></a></td>
   </tr>
 </table>
