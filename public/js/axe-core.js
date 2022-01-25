@@ -5,15 +5,15 @@
 document.addEventListener("DOMContentLoaded", function () {
   axe
     .run()
-    .then(results => {
+    .then((results) => {
       if (results.violations.length) {
-        console.error("Accessibility issues found:")
-        console.error(results.violations)
+        console.error("Accessibility issues found:");
+        console.error(results.violations);
       } else {
-        console.log('No accessibility issues found')
+        console.log("No accessibility issues found");
       }
     })
-    .catch(err => {
-      console.error('Something bad happened:', err.message);
+    .catch((err) => {
+      console.error("Something bad happened:", err.message);
     });
-})
+});
