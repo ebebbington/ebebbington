@@ -20,4 +20,4 @@ module.exports = (on, config) => {
   // `config` is the resolved Cypress config
   config.ignoreTestFiles = "**/examples/*.spec.js";
   return config;
-}
+};

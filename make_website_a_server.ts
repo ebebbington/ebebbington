@@ -1,33 +1,29 @@
-import { Drash } from "./deps.ts"
+import { Drash } from "./deps.ts";
 
-class HomeResource extends Drash.Http.Resource {
-  static paths = ["/"]
-  public GET () {
-    this.response.body = Deno.readTextFileSync("./index.html")
-    return this.response
+class HomeResource extends Drash.Resource {
+  paths = ["/"];
+  public GET(_request: Drash.Request, response: Drash.Response) {
+    return response.file("./index.html");
   }
 }
 
-class FilesResource extends Drash.Http.Resource {
-  static paths = ["/public/:dir/:file"]
+class FilesResource extends Drash.Resource {
+  paths = ["/public/:dir/:file"];
 
-  public GET() {
-    const { url } = this.request
-    const mimeType = url.endsWith(".css") ? "text/css" : url.endsWith(".js") ? "application/javascript" : "image/png"
-    this.response.body = Deno.readFileSync("." + this.request.url)
-    this.response.headers.set("Content-Type", mimeType)
-    return this.response
+  public GET(request: Drash.Request, response: Drash.Response) {
+    response.file(`.${new URL(request.url).pathname}`);
+    // `file()` doesnt correctly display images (yet)
+    response.body = Deno.readFileSync(`.${new URL(request.url).pathname}`);
   }
 }
 
-const server = new Drash.Http.Server({
-  directory: ".",
+const server = new Drash.Server({
   resources: [HomeResource, FilesResource],
-})
-
-await server.run({
   hostname: "localhost",
-  port: 1337
-})
+  port: 1337,
+  protocol: "http",
+});
 
-console.log('server running')
+server.run();
+
+console.log("server running");
