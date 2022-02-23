@@ -53,7 +53,7 @@
     <th>Other</th>
   </tr>
   <tr>
-    <td><a href="https://github.com/ebebbington/chatsterisk">chatsterisk</a></td>
+    <td><a href="https://github.com/ebebbington/chatsterisk">chatsterisk <i>(A)</i></a></a></td>
     <td><a href="https://github.com/ebebbington/depcheck">depcheck &#10003;</a></td>
     <td><a href="https://github.com/ebebbington/training-playground">resources &#10003;</a></td>
   </tr>
