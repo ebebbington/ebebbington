@@ -59,7 +59,7 @@
   </tr>
   <tr>
     <td><a href="https://github.com/ebebbington/copytube">copytube &#10003; <i>(A)</i></a></td>
-    <td><a href="https://github.com/ebebbington/deno-userland-ideas">deno-userland-ideas &#10003;</a></td>
+    <td><a href="https://github.com/ebebbington/context-finder">context-finder &#10003;</a></td>
     <td><a href="https://github.com/ebebbington/jackspot">jackspot <i>(A)</i></a></td>
   </tr>
   <tr>
@@ -74,12 +74,12 @@
   </tr>
   <tr>
     <td><a href="https://github.com/ebebbington/denv-creator">denv-creator <i>(A)</i></a></td>
-    <td><a href="https://github.com/ebebbington/context-finder">context-finder &#10003;</a></td>
+    <td><a href="https://github.com/ebebbington/music-converter">music-converter &#10003;</a</td>
     <td><a href="https://github.com/ebebbington/ebebbington">this &#10003;</a></td>
   </tr>
   <tr>
     <td></td>
-    <td><a href="https://github.com/ebebbington/music-converter">music-converter &#10003;</a</td>
-      <td><a href="https://github.com/ebebbington/outriders-calc">outriders-calc<i> (A)</i></a></td>
+    <td></td>
+    <td><a href="https://github.com/ebebbington/outriders-calc">outriders-calc<i> (A)</i></a></td>
   </tr>
 </table>
